@@ -4,6 +4,6 @@ public class Main {
 
         StaticInitializationDemo instance1 = new StaticInitializationDemo("Instance 1");
         StaticInitializationDemo instance2 = new StaticInitializationDemo("Instance 2");
-        
+        System.out.println("Static variable after creating instances: " + StaticInitializationDemo.getStaticVariable());
     }
 }
