@@ -9,4 +9,12 @@ public class StaticInitializationDemo {
     public StaticInitializationDemo(String instanceVariable) {
         this.instanceVariable = instanceVariable;
     }
+
+    public static int getStaticVariable() {
+        return staticVariable;
+    }
+
+    public String getInstanceVariable() {
+        return instanceVariable;
+    }
 }
