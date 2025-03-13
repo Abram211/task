@@ -8,5 +8,10 @@ public class Main {
 
         System.out.println("Instance 1 variable: " + instance1.getInstanceVariable());
         System.out.println("Instance 2 variable: " + instance2.getInstanceVariable());
+
+
+
+
+        
     }
 }
